@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+:root{
+  --main-color: #616160;
+}
+
+
+/*header*/
+header .nav_1 .gnb li a{
+  color: var(--main-color);
+}
+
+header .nav_2 ul li a{
+  color: var(--main-color);
+}
+
+header{
+  width: 100%;
+  height: 240px;
+  background-color: #fff;
+}
+
+header .nav_1 .depth2 li a{
+  color: var(--main-color);
+}
+
+.ham span {
+  background-color: var(--main-color);
+}
+
+ .mobile-header{
+    position: static;
+    height: 50px;
+  }
+
+
+@media(max-width:1024px){
+    .mobile-header{
+    width: 100%;
+    height: 100px;
+    position: static;
+  }
+
+  .mobile-icon li a{
+  color: var(--main-color);
+  }
+    
+.ham span {
+  background-color: var(--main-color);
+}
+}
+
+/*login-container*/
+.login-container{
+  margin: 150px auto;
+  max-width: 400px;
+}
+
+
+.login-container input{
+  width: 100%;
+  height: 48px;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 0 20px;
+  font-size: 15px;
+  margin-bottom: 8px;
+  font-family: 'KBO-Dia-Gothic_light', cursive;
+}
+
+.login-container input::placeholder{
+  color: #CCCCCC;
+}
+
+/*find*/
+
+.login-container .find ul{
+  padding: 10px 0 30px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login-container .find ul li{
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+.login-container .find ul li:first-child{
+  position: relative;
+}
+
+.login-container .find ul li:first-child::before{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 11px;
+  background-color: #000;
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+
+.login-container button{
+  cursor: pointer;
+}
+
+.login-container .button1 button{
+  width: 100%;
+  height: 68px;
+}
+
+.login-container .button1 .login{
+  background-color: var(--main-color);
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.login-container .button1 .signup{
+  background-color: #fff;
+  border: 0.51px solid #D4D4D4;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}
+
+.login-container button a{
+  font-size: 16px;
+  font-family: 'KBO-Dia-Gothic_light', cursive;
+}
+
+.login-container .button2 button{
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.login-container .button2 button.kakao{
+  background-color: #FAE100;
+  color: #371D1E;
+}
+
+.login-container .button2 button a{
+  position: relative;
+}
+
+.login-container .button2 button.kakao a::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: -30px;
+  background: url(/img/login_sns_01.png) no-repeat center;
+  background-size: 20px 20px;
+  width: 22px;
+  height: 22px;
+}
+
+.login-container .button2 button.naver{
+  background-color: #2DB400;
+  color: #fff;
+}
+
+.login-container .button2 button.naver a::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: -30px;
+  background: url(/img/login_sns_03.png) no-repeat center;
+  background-size: 16px 16px;
+  width: 22px;
+  height: 22px;
+  filter: invert(1);
+}
+
+.login-container .button2 button.google{
+  background-color: #fff;
+  color: #000;
+ border: 0.51px solid #D4D4D4;
+}
+
+.login-container .button2 button.google a::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: -30px;
+  background: url(/img/login_sns_02.png) no-repeat center;
+  background-size: 16px 16px;
+  width: 22px;
+  height: 22px;
+}
+
+.login-container .no-member{
+  margin: 10px 0;
+  text-align: center;
+}
+
+.login-container .no-member::after{
+  content: "";
+  display: block;
+  width: 87px;
+  height: 1px;
+  background-color: #000;
+  margin: 0 auto;
+}

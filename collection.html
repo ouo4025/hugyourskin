@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collection</title>
+
+   <!--파비콘-->
+  <link rel="icon" href="img/favicon.ico">
+
+  <!--font-->
+  <link rel="stylesheet" href="css/font.css">
+
+
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+
+  <!--AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/collection.css">
+
+  <!--script-->
+  <!--1.제이쿼리 2.자바스크립트 3.aos 4.외부js파일-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script defer src="js/collection.js"></script>
+  <script defer src="js/main.js"></script>
+
+  <!--icon-->
+  <script src="https://kit.fontawesome.com/64f25849a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <div class="nav_1">
+          <div class="logo"><a href="index.html">
+            <img src="img/logo_b.png" alt="로고">
+          </a></div><!--.logo-->
+          <ul class="gnb">
+            <li><a href="brand.html">brand</a>
+              <ul class="depth2">
+                <li><a href="brand.html">brand</a></li>
+              </ul>
+            </li>
+            <li><a href="collection.html">collection</a>
+              <ul class="depth2">
+                <li><a href="collection.html">Korilakkuma</a></li>
+                <li><a href="collection.html">Fallen Angel</a></li>
+                <li><a href="collection.html">Sleepwalker</a></li>
+                <li><a href="collection.html">NT3</a></li>
+              </ul>
+            </li>
+            <li><a href="product_all.html">all product</a>
+              <ul class="depth2">
+                <li><a href="product_top.html">Top</a></li>
+                <li><a href="product_bottom.html">Bottom</a></li>
+                <li><a href="product_acc.html">acc</a></li>
+              </ul>
+            </li>
+            <li><a href="notice.html">community</a>
+              <ul class="depth2">
+                <li><a href="notice.html">Notice</a></li>
+                <li><a href="q&a.html">Q&A</a></li>
+                <li><a href="review.html">Reivew</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--.nav_1-->
+
+        <div class="nav_2">
+          <ul>
+            <li><a href="#">KRW</a></li>
+            <li><a href="login.html">ACCOUNT</a></li>
+            <li><a href="mypage.html">MYPAGE</a></li>
+            <li><a href="cart.html">CART(0)</a></li>
+            <li class="search-icon"><a href="#"><img src="img/search_b.png" alt="검색아이콘"></a></li>
+          </ul>
+        </div><!--.nav_2-->
+      </div><!--.inner-->
+
+      <div class="nav_1-wrap"></div><!--.nav_1-wrap-->
+    </header>
+
+    <div class="mobile-header">
+      <div class="ham">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div><!--.ham-->
+
+      <div class="mobile-logo"><a href="index.html"><img src="img/logo_b.png" alt="모바일로고이미지"></a></div>
+
+      <ul class="mobile-icon">
+        <li><a href="cart.html">CART(0)</a></li>
+        <li class="search-icon"><a href="#"><img src="img/search_b.png" alt="검색아이콘"></a></li>
+      </ul><!--.mobile-icon-->
+
+    </div><!--.mobile-header-->
+
+    <div class="mobile-menu">
+      <div class="close">
+        <img src="img/close.png" alt="닫기버튼아이콘">
+      </div><!--.close-->
+
+      <div class="menu-logo"></div>
+
+
+        <ul class="gnb">
+          <li><a href="brand.html">brand</a>
+            <ul class="depth2">
+              <li><a href="brand.html">brand</a></li>
+            </ul>
+          </li>
+          <li><a href="collection.html">collection</a>
+            <ul class="depth2">
+              <li><a href="collection.html">Korilakkuma</a></li>
+              <li><a href="collection.html">Fallen Angel</a></li>
+              <li><a href="collection.html">Sleepwalker</a></li>
+              <li><a href="collection.html">NT3</a></li>
+            </ul>
+          </li>
+          <li><a href="product_all.html">all product</a>
+            <ul class="depth2">
+              <li><a href="product_top.html">Top</a></li>
+              <li><a href="product_bottom.html">Bottom</a></li>
+              <li><a href="product_acc.html">acc</a></li>
+            </ul>
+          </li>
+          <li><a href="notice.html">community</a>
+            <ul class="depth2">
+              <li><a href="notice.html">Notice</a></li>
+              <li><a href="q&a.html">Q&A</a></li>
+              <li><a href="review.html">Reivew</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="shortcut">
+          <li><a href="login.html">ACCOUNT</a></li>
+          <li><a href="mypage.html">MYPAGE</a></li>
+          <li><a href="#">ENG</a></li>
+        </ul>
+ 
+    </div><!--.mobile-menu-->
+
+    <div class="search">
+      <div class="close">
+        <img src="img/close.png" alt="닫기버튼아이콘">
+      </div><!--.close-->
+
+      <div class="search-box">
+        <input type="text" placeholder="Search ...">
+
+        <div class="search-icon-img">
+          <img src="img/search_b.png" alt="돋보기이미지">
+        </div><!--.search-icon-->
+      </div><!--.search-box-->
+
+      <div class="keyword">
+        <h2>Popular Keyword</h2>
+        <ul>
+          <li><a href="product_all.html">hoodie</a></li>
+          <li><a href="collection.html">25SS collection</a></li>
+          <li><a href="product_bottom.html">washed jean</a></li>
+        </ul>
+      </div><!--.keyword-->
+    </div><!--.search-->
+
+    <main>
+      <div class="collection-container">
+
+        <div class="collection-banner">
+          <h1>Hug Your Skin <br> Collection </h1>
+        </div><!--.collection-banner-->
+
+            <div class="collection">
+        <ul>
+          <li data-aos="fade-up" data-aos-duration="1000">
+            <div class="collection-box">
+              <div class="collection-img">
+                <img src="img/collection_01.jpg" alt="collection이미지1">
+              </div><!--.collection-img-->
+
+              <div class="collection-txt">
+                <h2>Hugyourskin X Korilakkuma <br> Collaboration</h2>
+                <p>올 여름 사랑스러운 코리락쿠마와 허그유어스킨이 만났습니다. <br> 장난을 좋아하고 활발한 개구쟁이, 코리락쿠마를 <br>허그유어스킨만의 실루엣으로 만나보세요.</p>
+                <p>Musinsa Live May 20th (Tue), 7PM⋰˚★</p>
+              </div><!--.collection-txt-->
+            </div><!--.collection-box-->
+
+            <div class="more">
+              <a href="#">
+                <p>MORE</p>
+                <div class="more-arrow"> <img src="img/more.png" alt="화살표이미지"></div>
+              </a>
+            </div><!--.more-->
+          </li>
+
+          <li data-aos="fade-up" data-aos-duration="1000">
+            <div class="collection-box">
+              <div class="collection-img">
+                <img src="img/collection_02.jpg" alt="collection이미지2">
+              </div><!--.collection-img-->
+
+              <div class="collection-txt">
+                <h2>Hugyourskin X NT3 <br> Collaboration</h2>
+                <p>허규어스킨이 소개하는 HYS X NT3 협업 프로젝트 24 FW 컬렉션.스웨이드, 레더, 나일론을 결합하였고, 레이스 테이프 디테일을 더해소녀스러우면서도 스포티한 무드를 연출하였습니다쿠션감 있는 쉐입과 아웃도어 기반의 아웃솔로 편안한 착화감이 특징입니다.</p>
+                <p>Musinsa Live May 20th (Tue), 7PM⋰˚★</p>
+              </div><!--.collection-txt-->
+            </div><!--.collection-box-->
+
+            <div class="more">
+              <a href="#">
+                <p>MORE</p>
+                <div class="more-arrow"> <img src="img/more.png" alt="화살표이미지"></div>
+              </a>
+            </div><!--.more-->
+          </li>
+
+          <li data-aos="fade-up" data-aos-duration="1000">
+            <div class="collection-box">
+              <div class="collection-img">
+                <img src="img/brand_01.jpg" alt="collection이미지3">
+              </div><!--.collection-img-->
+
+              <div class="collection-txt">
+                <h2>24 HS ★ "GIRL ROCK"</h2>
+                <p>24 HS 오픈을 기념하여 특별한 이벤트를 준비했습니다.이번 컬렉션의 모티브가 된 만화 'Nana'는 소녀들의 우정을 담은 스토리입니다. 여러분이 함께 허유스 제품을 나누고 싶은, 여러분의 Nana 같은 친구를 만나보세요</p>
+                <p>Musinsa Live May 20th (Tue), 7PM⋰˚★</p>
+              </div><!--.collection-txt-->
+            </div><!--.collection-box-->
+
+            <div class="more">
+              <a href="#">
+                <p>MORE</p>
+                <div class="more-arrow"> <img src="img/more.png" alt="화살표이미지"></div>
+              </a>
+            </div><!--.more-->
+          </li>
+
+          <li data-aos="fade-up" data-aos-duration="1000">
+          <div class="collection-box">
+            <div class="collection-img">
+              <img src="img/collection_03.jpg" alt="collection이미지3">
+            </div><!--.collection-img-->
+
+            <div class="collection-txt">
+              <h2>24 FW Capsule Sleepwalker</h2>
+              <p>24 FW Capsule 'Sleepwalker'는 꿈과 현실의 경계를 오가는 몽환적인 무드에서 영감을 받은 컬렉션으로, 은은한 고요함 속에 감춰진 긴장감을 담아낸 미니멀함과 아방가르드가 공존하는 라인업입니다</p>
+              <p>Musinsa Live May 20th (Tue), 7PM⋰˚★</p>
+            </div><!--.collection-txt-->
+          </div><!--.collection-box-->
+
+          <div class="more">
+            <a href="#">
+              <p>MORE</p>
+              <div class="more-arrow"> <img src="img/more.png" alt="화살표이미지"></div>
+            </a>
+          </div><!--.more-->
+        </li>
+        </ul>
+    </div><!--.collection-->
+
+      </div><!--.collection-container-->
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+      <div class="f-left">
+        <ul>
+          <li>
+            <h3>고객서비스</h3>
+            <p>고객센터: 오른쪽 하단 1:1 TALK 문의하기</p>
+            <p>운영시간: 운영시간: 월~금 AM 10:00~PM 16:00</p>
+            <p>(점심: PM 12:30~PM 14:00, 토/일/공휴일 휴무)</p>
+            <p>플랫폼 관계자 / 고객서비스 문의 : hugyourskinkr@gmail.com</p>
+            <ul class="help">
+              <li><a href="#">배송 및 교환/반품</a></li>
+              <li><a href="#">자주묻는 질문</a></li>
+              <li><a href="#">멤버식 혜택</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <h3>회사정보</h3>
+            <p><span>company</span>허그유어스킨</p>
+            <p><span>ceo</span>최고은</p>
+            <p><span>business</span>777-11-02273</p>
+            <p><span>online-order</span>NO 2023-서울중구-1356</p>
+            <p><span>Email</span>contact@deep-dive.kr</p>
+            <p><span>address</span> 04035 서울특별시 마포구 서교동 381-9 201호</p>
+          </li>
+        </ul>
+
+      </div><!--f-left-->
+      <div class="f-right">
+        <div class="sns-icon">
+          <p><a href="https://www.instagram.com/hugyourskin.wear/"><i class="fa-brands fa-instagram"></i></a></p>
+          <p><a href="#"><i class="fa-brands fa-facebook"></i></a></p>
+        </div><!--.sns-icon-->
+
+        <div class="f-logo"><img src="img/logo.png" alt="하단로고이미지"></div>
+
+        <ul class="policy-links">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">이용안내</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+
+        <p class="copy">&copy;2021.hugyourskin All rights reserved.</p>
+      </div><!--.f-right-->
+    </footer>
+
+    <div class="contact"></div>
+    <div class="top"></div>
+
+
+
+  </div><!--#wrap-->
+  
+</body>
+</html>

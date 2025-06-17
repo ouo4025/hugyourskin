@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reivew</title>
+
+   <!--파비콘-->
+  <link rel="icon" href="img/favicon.ico">
+
+  <!--font-->
+  <link rel="stylesheet" href="css/font.css">
+
+
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+
+  <!--AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/community.css">
+
+  <!--script-->
+  <!--1.제이쿼리 2.자바스크립트 3.aos 4.외부js파일-->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script defer src="js/main.js"></script>
+
+  <!--icon-->
+  <script src="https://kit.fontawesome.com/64f25849a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <div class="nav_1">
+          <div class="logo"><a href="index.html">
+            <img src="img/logo_b.png" alt="로고">
+          </a></div><!--.logo-->
+          <ul class="gnb">
+            <li><a href="brand.html">brand</a>
+              <ul class="depth2">
+                <li><a href="brand.html">brand</a></li>
+              </ul>
+            </li>
+            <li><a href="collection.html">collection</a>
+              <ul class="depth2">
+                <li><a href="collection.html">Korilakkuma</a></li>
+                <li><a href="collection.html">Fallen Angel</a></li>
+                <li><a href="collection.html">Sleepwalker</a></li>
+                <li><a href="collection.html">NT3</a></li>
+              </ul>
+            </li>
+            <li><a href="product_all.html">all product</a>
+              <ul class="depth2">
+                <li><a href="product_top.html">Top</a></li>
+                <li><a href="product_bottom.html">Bottom</a></li>
+                <li><a href="product_acc.html">acc</a></li>
+              </ul>
+            </li>
+            <li><a href="notice.html">community</a>
+              <ul class="depth2">
+                <li><a href="notice.html">Notice</a></li>
+                <li><a href="q&a.html">Q&A</a></li>
+                <li><a href="review.html">Reivew</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--.nav_1-->
+
+        <div class="nav_2">
+          <ul>
+            <li><a href="#">KRW</a></li>
+            <li><a href="login.html">ACCOUNT</a></li>
+            <li><a href="mypage.html">MYPAGE</a></li>
+            <li><a href="cart.html">CART(0)</a></li>
+            <li class="search-icon"><a href="#"><img src="img/search_b.png" alt="검색아이콘"></a></li>
+          </ul>
+        </div><!--.nav_2-->
+      </div><!--.inner-->
+
+      <div class="nav_1-wrap"></div><!--.nav_1-wrap-->
+    </header>
+
+    <div class="mobile-header">
+      <div class="ham">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div><!--.ham-->
+
+      <div class="mobile-logo"><a href="index.html"><img src="img/logo_b.png" alt="모바일로고이미지"></a></div>
+
+      <ul class="mobile-icon">
+        <li><a href="cart.html">CART(0)</a></li>
+        <li class="search-icon"><a href="#"><img src="img/search_b.png" alt="검색아이콘"></a></li>
+      </ul><!--.mobile-icon-->
+
+    </div><!--.mobile-header-->
+
+    <div class="mobile-menu">
+      <div class="close">
+        <img src="img/close.png" alt="닫기버튼아이콘">
+      </div><!--.close-->
+
+      <div class="menu-logo"></div>
+
+
+        <ul class="gnb">
+          <li><a href="brand.html">brand</a>
+            <ul class="depth2">
+              <li><a href="brand.html">brand</a></li>
+            </ul>
+          </li>
+          <li><a href="collection.html">collection</a>
+            <ul class="depth2">
+              <li><a href="collection.html">Korilakkuma</a></li>
+              <li><a href="collection.html">Fallen Angel</a></li>
+              <li><a href="collection.html">Sleepwalker</a></li>
+              <li><a href="collection.html">NT3</a></li>
+            </ul>
+          </li>
+          <li><a href="product_all.html">all product</a>
+            <ul class="depth2">
+              <li><a href="product_top.html">Top</a></li>
+              <li><a href="product_bottom.html">Bottom</a></li>
+              <li><a href="product_acc.html">acc</a></li>
+            </ul>
+          </li>
+          <li><a href="notice.html">community</a>
+            <ul class="depth2">
+              <li><a href="notice.html">Notice</a></li>
+              <li><a href="q&a.html">Q&A</a></li>
+              <li><a href="review.html">Reivew</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="shortcut">
+          <li><a href="login.html">ACCOUNT</a></li>
+          <li><a href="mypage.html">MYPAGE</a></li>
+          <li><a href="#">ENG</a></li>
+        </ul>
+ 
+    </div><!--.mobile-menu-->
+
+    <div class="search">
+      <div class="close">
+        <img src="img/close.png" alt="닫기버튼아이콘">
+      </div><!--.close-->
+
+      <div class="search-box">
+        <input type="text" placeholder="Search ...">
+
+        <div class="search-icon-img">
+          <img src="img/search_b.png" alt="돋보기이미지">
+        </div><!--.search-icon-->
+      </div><!--.search-box-->
+
+      <div class="keyword">
+        <h2>Popular Keyword</h2>
+        <ul>
+          <li><a href="product_all.html">hoodie</a></li>
+          <li><a href="collection.html">25SS collection</a></li>
+          <li><a href="product_bottom.html">washed jean</a></li>
+        </ul>
+      </div><!--.keyword-->
+    </div><!--.search-->
+
+    <main>
+      <div class="community-container">
+        <div class="community-banner">
+
+          <h1>Community</h1>
+          <div class="community-category">
+            <ul>
+              <li><a href="notice.html">Notice</a></li>
+              <li><a href="q&a.html">Q&A</a></li>
+              <li class="active"><a href="review.html">Reivew</a></li>
+            </ul>
+
+          </div><!--.community-category-->
+
+        </div><!--.community-banner-->
+
+      <div class="community-inner">
+
+          <h2>REIVEW</h2>
+
+          <table class="review-table">
+            <tbody>
+              <tr>
+                <th>공지</th>
+                <td><a href="#"><p class="title">리뷰 적릭금 공지사항</p>
+                  <p class="date">2025.04.01 <span>허그유어스킨</span></p></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td><img src="img/product/top_03.png" alt="리뷰상품이미지1"></td>
+                <td><a href="#"><p class="title">맘에들어요</p>
+                  <p class="date">2025.04.01 <span>김**</span></p></a>
+                </td>
+              </tr>
+
+               <tr>
+                <td><img src="img/product/acc_01.png" alt="리뷰상품이미지2"></td>
+                <td><a href="#"><p class="title">굿굿 만족이요~</p>
+                  <p class="date">2025.03.29 <span>문**</span></p></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td><img src="img/product/top_11.png" alt="리뷰상품이미지3"></td>
+                <td><a href="#"><p class="title"> 저한테 조금 커요<span>[1]</span></p>
+                  <p class="date">2025.03.15 <span>문**</span></p></a>
+                </td>
+              </tr>
+
+              <tr>
+                <td><img src="img/product/top_10.png" alt="리뷰상품이미지4"></td>
+                <td><a href="#"><p class="title">핏 진짜 이뻐요</p>
+                  <p class="date">2025.03.09 <span>김**</span></p></a>
+                </td>
+              </tr>
+
+               <tr>
+                <td><img src="img/product/acc_06.png" alt="리뷰상품이미지5"></td>
+                <td><a href="#"><p class="title">꽤괜<span class="clip"><i class="fa-solid fa-paperclip"></i></span></p>
+                  <p class="date">2025.03.07 <span>문**</span></p></a>
+                </td>
+              </tr>
+
+              
+            </tbody>
+          </table>
+          
+        </div><!--.community-inner-->
+
+      </div><!--.community-container-->
+
+       <div class="page-number">
+        <ul>
+          <li><a href="#"><i class="fa-solid fa-angle-left"></i></a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#"><i class="fa-solid fa-angle-right"></i></a></li>
+        </ul>
+
+      </div><!--.page-number-->
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+      <div class="f-left">
+        <ul>
+          <li>
+            <h3>고객서비스</h3>
+            <p>고객센터: 오른쪽 하단 1:1 TALK 문의하기</p>
+            <p>운영시간: 운영시간: 월~금 AM 10:00~PM 16:00</p>
+            <p>(점심: PM 12:30~PM 14:00, 토/일/공휴일 휴무)</p>
+            <p>플랫폼 관계자 / 고객서비스 문의 : hugyourskinkr@gmail.com</p>
+            <ul class="help">
+              <li><a href="#">배송 및 교환/반품</a></li>
+              <li><a href="#">자주묻는 질문</a></li>
+              <li><a href="#">멤버식 혜택</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <h3>회사정보</h3>
+            <p><span>company</span>허그유어스킨</p>
+            <p><span>ceo</span>최고은</p>
+            <p><span>business</span>777-11-02273</p>
+            <p><span>online-order</span>NO 2023-서울중구-1356</p>
+            <p><span>Email</span>contact@deep-dive.kr</p>
+            <p><span>address</span> 04035 서울특별시 마포구 서교동 381-9 201호</p>
+          </li>
+        </ul>
+
+      </div><!--f-left-->
+      <div class="f-right">
+        <div class="sns-icon">
+          <p><a href="https://www.instagram.com/hugyourskin.wear/"><i class="fa-brands fa-instagram"></i></a></p>
+          <p><a href="#"><i class="fa-brands fa-facebook"></i></a></p>
+        </div><!--.sns-icon-->
+
+        <div class="f-logo"><img src="img/logo.png" alt="하단로고이미지"></div>
+
+        <ul class="policy-links">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">이용안내</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+
+        <p class="copy">&copy;2021.hugyourskin All rights reserved.</p>
+      </div><!--.f-right-->
+    </footer>
+
+    <div class="contact"></div>
+    <div class="top"></div>
+
+
+
+  </div><!--#wrap-->
+  
+</body>
+</html>
