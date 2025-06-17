@@ -177,8 +177,8 @@ footer{
 .notice-table th {
   padding: 25px 6px;
   background: #fff;
-  border-top: 1px solid #C6C6C6;
-  border-bottom: 1px solid #C6C6C6;
+  border-top: 1px solid #dddddda6;
+  border-bottom: 1px solid #dddddda6;
 }
 
 .notice-table tr td:nth-child(1){
@@ -224,8 +224,8 @@ footer{
 .qa-table th {
   padding: 25px 20px;
   background: #fff;
-  border-top: 1px solid #C6C6C6;
-  border-bottom: 1px solid #C6C6C6;
+  border-top: 1px solid #dddddda6;
+  border-bottom: 1px solid #dddddda6;
 }
 
 .qa-table tr td:nth-child(1){
@@ -272,8 +272,8 @@ footer{
 .review-table th {
   padding: 25px 20px;
   background: #fff;
-  border-top: 1px solid #C6C6C6;
-  border-bottom: 1px solid #C6C6C6;
+  border-top: 1px solid #dddddda6;
+  border-bottom: 1px solid #dddddda6;
 }
 
 .review-table tr td:nth-child(1){
