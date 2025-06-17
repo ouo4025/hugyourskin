@@ -45,7 +45,7 @@ header .nav_1 .depth2 li a{
 .collection-banner{
   height: 330px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-  url(/img/collection_banner.jpg) no-repeat center top -100px / cover;
+  url(../img/collection_banner.jpg) no-repeat center top -100px / cover;
   position: relative;
   transition: all 0.8s ease-in-out;
 }
@@ -341,7 +341,7 @@ header .nav_1 .depth2 li a{
     margin-top: 7px;
     height: 280px;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(/img/collection_banner.jpg) no-repeat center top -50px / cover;
+    url(../img/collection_banner.jpg) no-repeat center top -50px / cover;
   }
 
   .collection-banner h1{
@@ -354,7 +354,7 @@ header .nav_1 .depth2 li a{
   .collection-banner{
     height: 260px;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(/img/collection_banner.jpg) no-repeat center top 0px / cover;
+    url(../img/collection_banner.jpg) no-repeat center top 0px / cover;
   }
 
   .collection-banner h1{

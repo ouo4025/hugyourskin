@@ -18,20 +18,20 @@
 .main-banner ul li.slide-01 {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/img/community_banner02.jpg") no-repeat center / cover;
+    url("../img/community_banner02.jpg") no-repeat center / cover;
     overflow: hidden;
 }
 
 .main-banner ul li.slide-02 {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/img/slide_04.jpg") no-repeat center / cover;
+    url("../img/slide_04.jpg") no-repeat center / cover;
     overflow: hidden;
 }
 .main-banner ul li.slide-03 {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
-    url("/img/collection_banner.jpg") no-repeat center / cover;
+    url("../img/collection_banner.jpg") no-repeat center / cover;
     overflow: hidden;
 }
 
@@ -175,7 +175,7 @@
 .best .best-slide ul li .product-img::before {
     content: "";
     display: block;
-    background: url("/img/top_01_fade.jpg") no-repeat center;
+    background: url("../img/top_01_fade.jpg") no-repeat center;
 
 }
 
@@ -830,11 +830,11 @@
 }
 
 .popup .left-img {
-    background: url("/img/intro_1.jpg") no-repeat center top 0 / cover;
+    background: url("../img/intro_1.jpg") no-repeat center top 0 / cover;
 }
 
 .popup .right-img {
-    background: url("/img/popup_1.jpg") no-repeat center top 0px/ cover;
+    background: url("../img/popup_1.jpg") no-repeat center top 0px/ cover;
 }
 
 @media(max-width:1024px) {
@@ -920,7 +920,7 @@
     width: 56px;
     height: 44px;
     border-radius: 23px;
-    background: #616160 url("/img/category-arrow.png") no-repeat center;
+    background: #616160 url("../img/category-arrow.png") no-repeat center;
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -930,7 +930,7 @@
 }
 
 .category .swiper-slide .shortcut a:hover {
-    background: rgb(129, 129, 129) url("/img/category-arrow.png") no-repeat center;
+    background: rgb(129, 129, 129) url("../img/category-arrow.png") no-repeat center;
 }
 
 .category .swiper-slide:hover .shortcut a {
@@ -1086,7 +1086,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #00000062 url("/img/instar-icon-color.png") no-repeat center;
+    background: #00000062 url("../img/instar-icon-color.png") no-repeat center;
     opacity: 0;
     transition: all 0.5s;
     z-index: 20;

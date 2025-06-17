@@ -58,7 +58,7 @@ header .nav_1 .depth2 li a{
   height: 700px;
   background: 
   linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-  url(/img/slide_04.jpg) no-repeat top 25% right / cover;
+  url(../img/slide_04.jpg) no-repeat top 25% right / cover;
   position: relative;
   transition: border-radius 0.8s ease-in-out;
 }
@@ -572,7 +572,7 @@ header .nav_1 .depth2 li a{
   width: 300px;
   height: 300px;
   z-index: -10;
-  background: url(/img/round-wings.png) no-repeat center;
+  background: url(../img/round-wings.png) no-repeat center;
 
 }
 

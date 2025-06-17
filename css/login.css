@@ -147,7 +147,7 @@ header .nav_1 .depth2 li a{
   position: absolute;
   top: -2px;
   left: -30px;
-  background: url(/img/login_sns_01.png) no-repeat center;
+  background: url(../img/login_sns_01.png) no-repeat center;
   background-size: 20px 20px;
   width: 22px;
   height: 22px;
@@ -164,7 +164,7 @@ header .nav_1 .depth2 li a{
   position: absolute;
   top: -2px;
   left: -30px;
-  background: url(/img/login_sns_03.png) no-repeat center;
+  background: url(../img/login_sns_03.png) no-repeat center;
   background-size: 16px 16px;
   width: 22px;
   height: 22px;
@@ -183,7 +183,7 @@ header .nav_1 .depth2 li a{
   position: absolute;
   top: -2px;
   left: -30px;
-  background: url(/img/login_sns_02.png) no-repeat center;
+  background: url(../img/login_sns_02.png) no-repeat center;
   background-size: 16px 16px;
   width: 22px;
   height: 22px;
